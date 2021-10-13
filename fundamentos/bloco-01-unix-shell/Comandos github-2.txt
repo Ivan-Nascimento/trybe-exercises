@@ -1,0 +1,26 @@
+       Sequência de comandos que devem ser executados para se fazer um pull-push no github.
+       
+       Retorne para a branch principal, master, com o comando: 
+       -> git checkout master
+       Verifique que você está na branch master com o comando: 
+       -> git branch  
+       (esta branch deve estar com o formato original, sem as habilidades recém adicionadas);
+       -> git pull origin main
+       Already up to date.
+       
+       Crie uma nova branch trybe-skills-updates a partir da master e faça checkout nela;
+       -> git branch trybe-skills-updates # (ir até a branch recem criada com o comando:) 
+       -> git checkout trybe-skills-updates
+       Switched to branch 'trybe-skills-updates'
+       -> cat >> trybe-skills-txt
+       React
+       (ctrl + D)
+       -> git add trybe-skills.txt
+       -> git status
+       	modified: trybe-skills.txt
+       -> git commit -m 'Adiciona React ao arquivo de habilidades'
+       -> git push -u origin trybe-skills-updates (Após o primeiro "push" da sua branch, você 		pode usar apenas o comando git push) 
+       
+       - Ir ao github e abrir o pull request no repositório!
+       
+       

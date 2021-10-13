@@ -1,0 +1,42 @@
+       Sequência de comandos que devem ser executados para se fazer um push no github.
+       
+       -> pasta cd trybe-exercises
+       -> trybe-exercises 
+       . Ir para a branch master com o comando:
+       -> git checkout master
+       . Verifique que você está na branch master com o comando: 
+       -> git branch  
+       (esta branch deve estar com o formato original, sem as habilidades recém adicionadas);
+       -> git status
+       nothing to commit, working tree clean
+       
+       . Crie uma nova branch trybe-skills-changes a partir da master e faça checkout nela;
+       -> git branch trybe-skills-changes 
+       . Ir para a branch recém criada com o comando: 
+       -> git checkout trybe-skills-changes
+       Switched to branch 'trybe-skills-changes'
+       . Navegar até a pasta do projeto onde encontra-se o nosso arquivo.
+       -> ls
+       fundamentos README.md
+       -> cd fundamentos
+       -> ls
+       bloco-01-unix-shell README.md
+       -> cd bloco-01-unix-shell
+       -> ls
+       trybe-skills.txt
+       -> cat >> trybe-skills.txt
+       -HTML (shift + enter)
+       -CSS
+       (ctrl + D) para salvar
+       
+       -> git add trybe-skills.txt
+       -> git status
+       	modified: trybe-skills.txt
+       -> git commit -m 'Adiciona duas habilidades'
+       -> git push -u origin trybe-skills-changes (Após o primeiro "push" da sua branch, você pode usar apenas o comando git push) 
+       
+       - Ir ao github e abrir o pull request no repositório!
+       
+       -Após se fazer a mergem 
+       
+       
